@@ -23,3 +23,7 @@ def addOneAddTwo(NumberOne, NumberTwo):
     Output = NumberOne + 1
     Output += NumberTwo +2
     return Output
+
+sum = addOneAddTwo(Var2,Var3)
+
+print(sum)
