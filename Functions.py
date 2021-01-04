@@ -18,3 +18,8 @@ Var4 = addOne(2.1+3.4)
 print(Var2)
 print(Var3)
 print(Var4)
+
+def addOneAddTwo(NumberOne, NumberTwo):
+    Output = NumberOne + 1
+    Output += NumberTwo +2
+    return Output
