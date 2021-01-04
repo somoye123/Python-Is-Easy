@@ -7,3 +7,7 @@ ONE = 1
 two = 2
 
 three, four = 3,4
+
+# floating numbers
+
+decimal = 1.1
