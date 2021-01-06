@@ -21,3 +21,17 @@ if Temperature <= 15:
     Thermo += 5
 
 print(Thermo)
+
+Time = 'Day'
+Sleepy = False
+Pajamax = 'off'
+InBed = True
+
+if Time == 'Night' or Sleepy == True:
+    Pajamax = 'On'
+elif Time == 'Morning' and InBed == True:
+    Pajamax = 'On'
+else:
+    Pajamax = 'Off'
+
+print(Pajamax)
