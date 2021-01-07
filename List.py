@@ -10,3 +10,5 @@ print(Scores[0:2]) # 0 stands for the start index up to but not including value 
 # list can contain several data types
 
 Scores[1:3] = [] # this delete all index values starting from 1 up to but not including index 3
+
+Scores.append(5) # use to add a new value to the end of a list
