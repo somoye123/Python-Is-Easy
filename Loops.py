@@ -28,3 +28,13 @@ print(Numbers)
 #     Action
 #     Action2
 #     Action3
+
+Counter = 1
+
+Sum = 0
+
+while (Counter <=100):
+    sum += Counter
+    Counter += 1
+
+print(Sum)
