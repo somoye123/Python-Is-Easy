@@ -77,3 +77,11 @@ for currentIndex in range(len(Participants)):
     print("Not breaked")
 
 print(currentIndex+1)
+
+for number in range(10):
+    if number%3 ===0:
+        print(number)
+        print("Divisible by 3")
+        continue
+    print(number)
+    print("Not divisible by 3")
