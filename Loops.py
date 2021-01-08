@@ -68,3 +68,12 @@ for name in Participants:
     position +=1
 
 print(position)
+
+for currentIndex in range(len(Participants)):
+    print(currentIndex)
+    if Participants[currentIndex] == "Joe":
+        print("Have breaked")
+        break
+    print("Not breaked")
+
+print(currentIndex+1)
