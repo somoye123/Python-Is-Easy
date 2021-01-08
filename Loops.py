@@ -55,3 +55,16 @@ while(height>0):
     time += 1
 print(height)
 print(time)
+
+Participants = ["Jen","Alex","Tina","Joe","Ben"]
+
+position = 1
+
+for name in Participants:
+    if name == "Alex":
+        print("About to break")
+        break
+    print("About to increment")
+    position +=1
+
+print(position)
