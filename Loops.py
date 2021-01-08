@@ -34,7 +34,14 @@ Counter = 1
 Sum = 0
 
 while (Counter <=100):
-    sum += Counter
+    Sum += Counter
     Counter += 1
 
 print(Sum)
+
+Index = 1
+
+while (Index < len(Letters)):
+    print(Index)
+    print(Letters[Index])
+    Index += 1
