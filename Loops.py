@@ -16,3 +16,10 @@ for i in Numbers:
         print(i)
 
 # range(start,stopping,steps)
+
+# for num in range(4)
+for num in range(-1,13,3):
+    Numbers.append(num)
+    print(num)
+
+print(Numbers)
