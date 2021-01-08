@@ -14,3 +14,5 @@ Numbers = [1,2,3,4,5]
 for i in Numbers:
     if i%2 ==1:
         print(i)
+
+# range(start,stopping,steps)
