@@ -45,3 +45,13 @@ while (Index < len(Letters)):
     print(Index)
     print(Letters[Index])
     Index += 1
+
+height = 5000
+velocity = 50
+time = 0
+
+while(height>0):
+    height -= velocity
+    time += 1
+print(height)
+print(time)
