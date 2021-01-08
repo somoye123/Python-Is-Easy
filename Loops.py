@@ -23,3 +23,8 @@ for num in range(-1,13,3):
     print(num)
 
 print(Numbers)
+
+# while (condition):
+#     Action
+#     Action2
+#     Action3
