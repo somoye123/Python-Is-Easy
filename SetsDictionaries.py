@@ -2,3 +2,4 @@
 # CountryDictionary = {'france':1, 'nigeria':2}
 
 BlackShoes = {42:2,41:3,40:4,39:1,38:0}
+print(BlackShoes)
